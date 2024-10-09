@@ -1,0 +1,41 @@
+.top{
+    border: solid red;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    font-family: monospace;
+    font-size: 20px;
+}
+#rubrik{
+    background-color: aqua;
+    border: solid;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.mellan{
+    border: solid orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#vänster{
+    border: solid 2px;
+    background-color: yellow;
+    text-align: center;
+    min-width: 49%;
+}
+#höger{
+    border: solid 2px;
+    background-color: pink;
+    text-align: center;
+    min-width: 49%;
+}
+.botten{
+    border: solid yellow 2px;
+}
